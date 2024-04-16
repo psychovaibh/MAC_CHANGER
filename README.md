@@ -3,6 +3,7 @@ interface mac changer which change to random mac for you just select the interfa
 
 # Note this bash script will only work in linux system.
 
+```
 ┌──(luffy㉿luffytaro)-[~/Documents]
 └─$ sudo ./mac_changer.sh
 
@@ -23,3 +24,4 @@ MAC Changed to: 52:54:00:2d:5c:70
 
 lo: 00:00:00:00:00:00
 eth0: 52:54:00:2d:5c:70
+```
