@@ -63,8 +63,6 @@ else
   mac=$(printf '52:54:00:%02x:%02x:%02x' $((RANDOM%256)) $((RANDOM%256)) $((RANDOM%256)))
 
 
-  echo "$mac"
-
   sudo ifconfig $i_c hw ether $mac
 
   sudo ifconfig $i_c up
